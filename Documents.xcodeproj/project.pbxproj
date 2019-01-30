@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EBE849112200CEC700237E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE849102200CEC700237E70 /* AppDelegate.swift */; };
-		EBE849132200CEC700237E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE849122200CEC700237E70 /* ViewController.swift */; };
 		EBE849162200CEC700237E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE849142200CEC700237E70 /* Main.storyboard */; };
 		EBE849182200CEC900237E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE849172200CEC900237E70 /* Assets.xcassets */; };
 		EBE8491B2200CEC900237E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE849192200CEC900237E70 /* LaunchScreen.storyboard */; };
+		EBE849232200D18400237E70 /* DocumentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE849222200D18400237E70 /* DocumentsTableViewController.swift */; };
+		EBE8492722011BD900237E70 /* TextEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8492622011BD900237E70 /* TextEntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBE8490D2200CEC700237E70 /* Documents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Documents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE849102200CEC700237E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBE849122200CEC700237E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBE849152200CEC700237E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBE849172200CEC900237E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE8491A2200CEC900237E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBE8491C2200CEC900237E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE849222200D18400237E70 /* DocumentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsTableViewController.swift; sourceTree = "<group>"; };
+		EBE8492622011BD900237E70 /* TextEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				EBE849102200CEC700237E70 /* AppDelegate.swift */,
-				EBE849122200CEC700237E70 /* ViewController.swift */,
 				EBE849142200CEC700237E70 /* Main.storyboard */,
+				EBE8492622011BD900237E70 /* TextEntryViewController.swift */,
+				EBE849222200D18400237E70 /* DocumentsTableViewController.swift */,
 				EBE849172200CEC900237E70 /* Assets.xcassets */,
 				EBE849192200CEC900237E70 /* LaunchScreen.storyboard */,
 				EBE8491C2200CEC900237E70 /* Info.plist */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBE849132200CEC700237E70 /* ViewController.swift in Sources */,
+				EBE849232200D18400237E70 /* DocumentsTableViewController.swift in Sources */,
 				EBE849112200CEC700237E70 /* AppDelegate.swift in Sources */,
+				EBE8492722011BD900237E70 /* TextEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
