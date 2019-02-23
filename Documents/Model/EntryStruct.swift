@@ -6,4 +6,11 @@
 //  Copyright © 2019 Weston Verhulst. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct Entry {
+    var title : String?
+    var body : String?
+    var date : Date?
+    var size : Int?
+}

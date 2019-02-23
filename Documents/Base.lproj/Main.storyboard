@@ -64,6 +64,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="titleSetter:" destination="dNa-Yy-hoV" eventType="editingChanged" id="6A0-Js-VDi"/>
+                                </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e53-rI-pgK">
                                 <rect key="frame" x="16" y="153.5" width="343" height="505.5"/>
@@ -94,6 +97,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bodyTextField" destination="e53-rI-pgK" id="sNN-9o-BvB"/>
                         <outlet property="nameTextField" destination="LEQ-3v-otb" id="Ah3-ut-prc"/>
                     </connections>
                 </viewController>

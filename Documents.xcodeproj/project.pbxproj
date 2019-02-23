@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBA74DD6220267E50050FCA0 /* EntryStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA74DD5220267E50050FCA0 /* EntryStruct.swift */; };
 		EBE849112200CEC700237E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE849102200CEC700237E70 /* AppDelegate.swift */; };
 		EBE849162200CEC700237E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE849142200CEC700237E70 /* Main.storyboard */; };
 		EBE849182200CEC900237E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE849172200CEC900237E70 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EBA74DD5220267E50050FCA0 /* EntryStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryStruct.swift; sourceTree = "<group>"; };
 		EBE8490D2200CEC700237E70 /* Documents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Documents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE849102200CEC700237E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBE849152200CEC700237E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EBA2E8702203C73000C0ADEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBA74DD5220267E50050FCA0 /* EntryStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EBE849042200CEC700237E70 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 				EBE849142200CEC700237E70 /* Main.storyboard */,
 				EBE8492622011BD900237E70 /* TextEntryViewController.swift */,
 				EBE849222200D18400237E70 /* DocumentsTableViewController.swift */,
+				EBA2E8702203C73000C0ADEF /* Model */,
 				EBE849172200CEC900237E70 /* Assets.xcassets */,
 				EBE849192200CEC900237E70 /* LaunchScreen.storyboard */,
 				EBE8491C2200CEC900237E70 /* Info.plist */,
@@ -141,6 +152,7 @@
 				EBE849232200D18400237E70 /* DocumentsTableViewController.swift in Sources */,
 				EBE849112200CEC700237E70 /* AppDelegate.swift in Sources */,
 				EBE8492722011BD900237E70 /* TextEntryViewController.swift in Sources */,
+				EBA74DD6220267E50050FCA0 /* EntryStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
